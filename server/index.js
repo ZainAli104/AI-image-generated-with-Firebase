@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv';
 import cors from 'cors';
 
 import postRoutes from './routes/postRoutes.js';
-import dalleRoutes from './routes/DalleRoutes.js';
+import dalleRoutes from './routes/dalleRoutes.js';
 
 dotenv.config();
 
