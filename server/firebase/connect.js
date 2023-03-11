@@ -7,12 +7,12 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 const firebaseConfig = {
-    apiKey: process.env.FIREBASE_API_KEY,
-    authDomain: "image-generated-app.firebaseapp.com",
-    projectId: "image-generated-app",
-    storageBucket: "image-generated-app.appspot.com",
-    messagingSenderId: "1022475977163",
-    appId: "1:1022475977163:web:73013dc2aaf3c1c714b64e"
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: "think-that-image-generator.firebaseapp.com",
+  projectId: "think-that-image-generator",
+  storageBucket: "think-that-image-generator.appspot.com",
+  messagingSenderId: "468086112300",
+  appId: "1:468086112300:web:ae0a03a5c8964a0f2fd189"
 };
 
 const app = initializeApp(firebaseConfig);
